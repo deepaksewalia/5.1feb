@@ -1,0 +1,98 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    overflow: hidden;
+
+}
+html{
+    font-size: 62.5%;
+
+}
+.header{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8rem;
+}
+.header .logo img{
+    width: 10rem;
+    
+}
+.header .line{
+    background-color: #fff;
+    width: .07rem;
+    height: 5rem;
+    margin-left: -20rem;
+   
+}
+.header .menu{
+    margin-left: -20rem;
+}
+.header .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    gap: 8rem;
+    
+}
+.header .menu ul li{
+    list-style: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.header .buy-btn button{
+    color: #fff;
+    background-color:#BA0CC5;
+    padding: 1.1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+/* hero section start */
+.hero{
+    background-image: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.hero .text{
+    width: 100rem;
+    margin-top: -10rem;
+}
+.hero .text h1{
+    font-size: 8rem;
+    color: #fff;
+    text-align: center;
+    line-height: 10rem;
+
+}
+.hero .text h3{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem; 
+    font-weight: 500;
+}
+.hero .request-btn button{
+    color: #fff;
+    background-color: #BA0CC5;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 6rem;
+    border-radius: .9rem;
+}
+li ,button{
+    cursor: pointer;
+}
